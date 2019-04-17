@@ -1,3 +1,5 @@
+#master branch is meaningless, check the other branches
+
 # Screwedoku
 
 ## Overview
