@@ -22,6 +22,10 @@ class SudokuGame
     end
   end
 
+  def parse_pos(pos)
+    pos.split(",").map{|coord| coord.to_i}
+  end
+
   def get_pos
     pos = nil
     until pos && valid_pos?(pos)
